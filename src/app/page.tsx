@@ -153,7 +153,7 @@ export default function Home() {
           </h2>
           <p className="max-w-xl text-center text-white mb-8">
             I craft robust, scalable web applications with a focus on modern
-            JavaScript, React, and Next.js. Let's build something amazing
+            JavaScript, React, and Next.js. Let{"'"}s build something amazing
             together.
           </p>
           <a
@@ -166,7 +166,7 @@ export default function Home() {
               });
             }}
           >
-            Let's Talk
+            Let{"'"}s Talk
           </a>
         </div>
       </section>
@@ -202,7 +202,7 @@ export default function Home() {
             <FaUser /> About Me
           </h3>
           <p className="text-white text-lg mb-8">
-            Hi, I'm Sinista, a passionate fullstack developer with a knack for
+            Hi, I{"'"}m Sinista, a passionate fullstack developer with a knack for
             building performant and user-friendly web solutions. My expertise
             lies in React and Next.js, but I love exploring new technologies and
             best practices. I thrive on challenges and am always eager to
@@ -310,7 +310,7 @@ export default function Home() {
             <FaEnvelope /> Contact
           </h3>
           <p className="text-[#bdbdbd] mb-8">
-            Let's connect! Feel free to reach out for collaborations, questions,
+            Let{"'"}s connect! Feel free to reach out for collaborations, questions,
             or just to say hi.
           </p>
           <div className="w-full rounded-2xl border border-[#444] bg-[#232323] backdrop-blur-lg shadow-2xl p-8 flex flex-col gap-6 relative">
