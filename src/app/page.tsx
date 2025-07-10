@@ -255,7 +255,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="bg-[#2d2d2d] rounded-xl shadow-lg p-6 hover:shadow-lg hover:shadow-[#444]/40 transition border border-[#444] group relative overflow-hidden"
               >
-                <div className="absolute top-0 right-0 w-10 h-10 flex items-center justify-center bg-[#232323] rounded-bl-xl rounded-tr-xl transition-all duration-300 group-hover:bg-[#444] group-hover:w-12 group-hover:h-12 z-10">
+                <div className="absolute top-[-1px] right-[-1px] w-10 h-10 flex items-center justify-center bg-[#232323] rounded-bl-xl rounded-tr-xl transition-all duration-300 group-hover:bg-[#444] group-hover:w-12 group-hover:h-12 z-10 border border-[#555]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -273,7 +273,7 @@ export default function Home() {
                     <line x1="10" y1="14" x2="21" y2="3"></line>
                   </svg>
                 </div>
-                <div className="mb-4 overflow-hidden rounded-lg">
+                <div className="mb-4 overflow-hidden rounded-lg border-2 border-[#444]">
                   <img
                     src={project.image}
                     alt={project.title}
