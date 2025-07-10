@@ -29,31 +29,19 @@ const projects = [
     description:
       "A sleek, responsive portfolio built with Next.js and Tailwind CSS.",
     link: "#",
-    image:
-      "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    image: "/projects/portfolio.png",
   },
   {
-    title: "E-commerce Platform",
+    title: "CS:GO Ecommerce Website",
     description: "Fullstack e-commerce app using React, Next.js, and MongoDB.",
-    link: "#",
-    image:
-      "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    link: "https://skinscapital.vercel.app",
+    image: "/projects/csgo.png",
   },
   {
-    title: "Task Management App",
-    description:
-      "Productivity app with drag-and-drop functionality and team collaboration features.",
-    link: "#",
-    image:
-      "https://images.unsplash.com/photo-1541462608143-67571c6738dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-  },
-  {
-    title: "Weather Dashboard",
-    description:
-      "Real-time weather application with 5-day forecasts and location search.",
-    link: "#",
-    image:
-      "https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    title: "Grailed Clone",
+    description: "A clone of the official grailed website.",
+    link: "https://grailed.vercel.app",
+    image: "/projects/grailed.png",
   },
 ];
 
@@ -158,7 +146,7 @@ export default function Home() {
           </p>
           <a
             href="#contact"
-            className="px-6 py-3 rounded-full bg-[#232323] text-[#ededed] font-semibold shadow-lg border border-[#444] transition backdrop-blur-sm hover:shadow-white/20 hover:scale-105"
+            className="px-6 py-3 rounded-full bg-[#232323] text-[#ededed] shadow-lg border border-[#444] transition backdrop-blur-sm hover:shadow-white/20 hover:scale-105"
             onClick={(e) => {
               e.preventDefault();
               document.getElementById("contact")?.scrollIntoView({
@@ -202,13 +190,15 @@ export default function Home() {
             <FaUser /> About Me
           </h3>
           <p className="text-white text-lg mb-8">
-            Hi, I{"'"}m Sinista, a passionate fullstack developer with a knack for
-            building performant and user-friendly web solutions. My expertise
-            lies in React and Next.js, but I love exploring new technologies and
-            best practices. I thrive on challenges and am always eager to
-            collaborate on exciting projects.
+            Hi, I{"'"}m Sinista, a passionate fullstack developer with a knack
+            for building performant and user-friendly web solutions. My
+            expertise lies in React and Next.js, but I love exploring new
+            technologies and best practices. I thrive on challenges and am
+            always eager to collaborate on exciting projects.
           </p>
-          <h4 className="text-xl font-bold mb-5 mt-12 text-white">My Journey</h4>
+          <h4 className="text-xl font-bold mb-5 mt-12 text-white">
+            My Journey
+          </h4>
           <div className="space-y-4 relative pl-8 border-l border-[#444]">
             {timeline.map((item, index) => (
               <div key={index} className="relative">
@@ -310,8 +300,8 @@ export default function Home() {
             <FaEnvelope /> Contact
           </h3>
           <p className="text-[#bdbdbd] mb-8">
-            Let{"'"}s connect! Feel free to reach out for collaborations, questions,
-            or just to say hi.
+            Let{"'"}s connect! Feel free to reach out for collaborations,
+            questions, or just to say hi.
           </p>
           <div className="w-full rounded-2xl border border-[#444] bg-[#232323] backdrop-blur-lg shadow-2xl p-8 flex flex-col gap-6 relative">
             <form className="flex flex-col gap-6">
